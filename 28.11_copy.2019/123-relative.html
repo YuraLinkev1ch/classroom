@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Расставить цифры</title>
+    <style>
+    .wrapper>div{
+        position:relative;
+    }
+    
+    .wrapper>div:nth-child(3n+2){
+        top:-1.15em;
+    }
+    .wrapper>div:nth-child(3n){
+        top:-2.3em;
+    }
+
+    .wrapper>div:nth-child(2){
+        left:10px;
+    }
+    .wrapper>div:nth-child(3){
+        left:20px;
+    }
+        .wrapper>div:nth-child(5){
+        left:20px;
+    }
+        .wrapper>div:nth-child(6){
+        left:10px;
+        
+    }    .wrapper>div:nth-child(7){
+        left:10px;
+    }
+        .wrapper>div:nth-child(8){
+        left:0px;
+    }
+        .wrapper>div:nth-child(9){
+        left:20px;
+    }
+        .wrapper>div:nth-child(10){
+        left:20px;
+    }
+        .wrapper>div:nth-child(11){
+        left:0px;
+    }
+        .wrapper>div:nth-child(12){
+        left:10px;
+    }
+
+        .wrapper>div:nth-child(13){
+        left:10px;
+    }
+
+        .wrapper>div:nth-child(14){
+        left:20px;
+    }
+
+        .wrapper>div:nth-child(15){
+        left:0px;
+    }
+        .wrapper>div:nth-child(16){
+        left:20px;
+    }
+        .wrapper>div:nth-child(17){
+        left:10px;
+    }
+        .wrapper>div:nth-child(18){
+        left:0px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Расставить цифры, не меняя содержимого контейнера body с помощью position: relative</h1>
+    <div class="wrapper">
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+    </div>
+</body>
+</html>

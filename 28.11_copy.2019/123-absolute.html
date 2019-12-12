@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Расставить цифры</title>
+    <style>
+        .wrapper{
+        position:relative;
+    }
+    .wrapper>div{
+        position:absolute;
+    }
+    
+    .wrapper>div:nth-child(1){
+        left:0px;
+    }
+    .wrapper>div:nth-child(2){
+        left:10px;
+    }
+
+    .wrapper>div:nth-child(3){
+        left:20px;
+    }
+    .wrapper>div:nth-child(4){
+        top:20px;
+        left:0px;
+    }
+        .wrapper>div:nth-child(5){
+       top:20px; 
+       left:20px;
+    }
+        .wrapper>div:nth-child(6){
+        top:20px;
+        left:10px;
+        
+    }    .wrapper>div:nth-child(7){
+        top:40px;
+        left:10px;
+    }
+        .wrapper>div:nth-child(8){
+       top:40px;
+       left:0px;
+    }
+        .wrapper>div:nth-child(9){
+        top:40px;
+        left:20px;
+    }
+        .wrapper>div:nth-child(10){
+       top:60px;
+       left:20px;
+    }
+        .wrapper>div:nth-child(11){
+        top:60px;
+        left:0px;
+    }
+        .wrapper>div:nth-child(12){
+        top:60px;
+        left:10px;
+    }
+
+        .wrapper>div:nth-child(13){
+      top:80px;
+      left:10px;
+    }
+
+        .wrapper>div:nth-child(14){
+        top:80px;
+        left:20px;
+    }
+
+        .wrapper>div:nth-child(15){
+      top:80px;
+      left:0px;
+    }
+        .wrapper>div:nth-child(16){
+       top:100px;
+       left:20px;
+    }
+        .wrapper>div:nth-child(17){
+        top:100px;
+        left:10px;
+    }
+        .wrapper>div:nth-child(18){
+       top:100px;
+       left:0px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Расставить цифры, не меняя содержимого контейнера body с помощью position: absolute</h1>
+    <div class="wrapper">
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+        <div>1</div><div>2</div><div>3</div>
+    </div>
+</body>
+</html>
